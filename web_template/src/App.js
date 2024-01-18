@@ -1,10 +1,10 @@
-import React from 'react';
-import TaskList from './components/TaskList.js';
+import './App.css';
+import { TodoWrapper } from './components/TodoWrapper';
 
 function App() {
   return (
     <div className="App">
-      <TaskList />
+      <TodoWrapper  />
     </div>
   );
 }
